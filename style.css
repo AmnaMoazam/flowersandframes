@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Patrick+Hand&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Bonheur+Royale&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Birthstone&display=swap');
+
+
+*{box-sizing: border-box;}
+*{
+    background-color: rgb(230, 230, 230);
+}
+
+img{
+    width: 400px;
+    height: 400px;
+}
+
+h1 {
+    background-image: url(images/FloralBanner.jpeg);
+    font-family: 'Birthstone', cursive;
+    padding: 100px;
+    margin: 0px;
+    background-size: 1500px;
+    font-size: 170px;
+    text-align: center;
+} 
+
+.text {font-size: 50px; font-family: 'Birthstone', cursive; text-align: center; background-color: yellow}
+
+
+
+h2 {
+    font-family: 'Birthstone', cursive;
+    font-size: 100px;
+    text-align: center;
+    margin: 0px;
+}
+
+/* Nav Bar */
+*{box-sizing: border-box;}
+
+.container {
+    display: flex; 
+    min-height: 5vh;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+.box {
+color: rgb(230, 230, 230);
+font-size: 30px;
+font-family: 'Birthstone', cursive;
+color:black;
+text-align: center;
+padding: 10px;
+width: 20%;
+}
+
+.box1 {background-color: rgb(230, 230, 230)}
+.box2 {background-color: rgb(230, 230, 230)}
+.box3 {background-color: rgb(230, 230, 230)}
+
+.container2 {
+    display: flex;
+    min-height: 30vh;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    }
+
+.box2 {
+    color: rgb(230, 230, 230);
+    align-content: center;
+    padding: 15px;
+    justify-content: center;
+    width: 33.333%;
+}
+
+.box2-1 {background-color: rgb(230, 230, 230); border-style: ridge; border-color: silver}
+.box2-2 {background-color: rgb(230, 230, 230); border-style: ridge; border-color: silver}
+.box2-3 {background-color: rgb(230, 230, 230); border-style: ridge; border-color: silver}
+.box2-4 {background-color: rgb(230, 230, 230); border-style: ridge; border-color: silver}
+.box2-5 {background-color: rgb(230, 230, 230); border-style: ridge; border-color: silver}
+.box2-6 {background-color: rgb(230, 230, 230); border-style: ridge; border-color: silver}
+
+
+
+
+
+
+/* .bk-image {
+    background-image: url(images/FloralBanner.jpeg);
+    background-size: 1500px;
+  background-color: #cccccc;
+} */
+
+
+
